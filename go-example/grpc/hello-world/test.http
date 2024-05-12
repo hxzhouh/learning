@@ -1,0 +1,5 @@
+GRPC grpcs://localhost:50051/api.Greeter/SayHello
+
+{
+  "name": "Hello"
+}

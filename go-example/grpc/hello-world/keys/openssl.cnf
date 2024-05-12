@@ -1,0 +1,17 @@
+[req]
+req_extensions = v3_req
+distinguished_name = req_distinguished_name
+prompt = no
+
+[req_distinguished_name]
+countryName = CN
+stateOrProvinceName = state
+localityName = city
+organizationName = huizhou92
+commonName = hello-world
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = localhost
